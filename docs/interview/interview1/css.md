@@ -397,13 +397,8 @@ web应用有不同设备尺寸和分辨率，这时需要响应式界面设计�
 
 </details>
 
-### 关于CSS的动画与过渡问题
+### 更多面试问题
 
-<details>
-<summary>展开查看</summary><br/>
+[50道CSS基础面试题（附答案）](https://segmentfault.com/a/1190000013325778)
 
-[深入理解CSS动画animation](https://www.cnblogs.com/xiaohuochai/p/5391663.html)
-
-[深入理解CSS过渡transition](https://www.cnblogs.com/xiaohuochai/p/5347930.html)
-
-</details>
+[《50道CSS基础面试题（附答案）》中的答案真的就只是答案吗？](https://segmentfault.com/a/1190000013860482)

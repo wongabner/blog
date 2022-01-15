@@ -188,7 +188,7 @@ class Component extends React.Component {
 - **事务** (Transaction): 
 	- 是 React 中的一个调用结构，用于包装一个方法，结构为: **initialize - perform(method) - close**。通过事务，可以统一管理一个方法的开始与结束；处于事务流中，表示进程正在执行一些操作； 
 
-![20220115152632](https://raw.githubusercontent.com/wongabner/picgo/master/20220115152632.png)
+![图 7](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-36-11.png)  
 
 - `setState`: React 中用于修改状态，更新视图。它具有以下特点:
 
@@ -404,9 +404,7 @@ Redux 是一个 **数据管理中心**，可以把它理解为一个全局的 da
 
 - 大致的数据结构如下所示:
 
-![20220115152656](https://raw.githubusercontent.com/wongabner/picgo/master/20220115152656.png)
-
-
+![图 8](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-36-36.png)  
 
 - **理念实现**:
 	- **Store**: 全局 Store 单例， 每个 Redux 应用下只有一个 store， 它具有以下方法供使用:
@@ -652,7 +650,8 @@ SSR，俗称 **服务端渲染** (Server Side Render)，讲人话就是: 直接�
 	
 - **条件**: Node 中间层、 React / Vue 等框架。 结构大概如下:
 
-![20220115152716](https://raw.githubusercontent.com/wongabner/picgo/master/20220115152716.png)
+![图 9](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-37-04.png)  
+
 
 - **开发流程**: (此处以 React + Router + Redux + Koa 为例)
 

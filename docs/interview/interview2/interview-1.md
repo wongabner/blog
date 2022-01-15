@@ -62,7 +62,8 @@ group:
 	- 在同一层叠上下文中，层叠等级才有意义
 	- `z-index`的优先级最高
 
-![20220115152012](https://raw.githubusercontent.com/wongabner/picgo/master/20220115152012.png)
+![图 1](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-31-55.png)
+
 
 ### 4. 居中布局
 
@@ -196,7 +197,8 @@ const prototype = Object.prototype
 
 放大来看，我画了张图供大家彻底理解:
 
-![20220115152104](https://raw.githubusercontent.com/wongabner/picgo/master/20220115152104.png)
+![图 2](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-33-20.png)  
+
 
 ### 2.原型链：
 
@@ -518,7 +520,8 @@ function square(n){
 
 通过解析转化成的`AST`如下图:
 
-![20220115152140](https://raw.githubusercontent.com/wongabner/picgo/master/20220115152140.png)
+![图 3](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-34-03.png)  
+
 
 ### 19. babel编译原理
 
@@ -825,7 +828,8 @@ worker.onmessage = function (event) {
 
 两者详细对比如下图:
 
-![20220115152235](https://raw.githubusercontent.com/wongabner/picgo/master/20220115152235.png)
+![图 4](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-34-30.png)  
+
 
 ### 4. Websocket
 
@@ -1409,7 +1413,8 @@ function quickSort(arr) {
 
 - 口诀: 插冒归基稳定，快选堆希不稳定
 
-![20220115152319](https://raw.githubusercontent.com/wongabner/picgo/master/20220115152319.png)
+![图 5](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-35-03.png)  
+
 
 稳定性： 同大小情况下是否可能会被交换位置, 虚拟dom的diff，不稳定性会导致重新渲染；
 
@@ -1436,7 +1441,8 @@ function cStairs(n) {
 	- 小值在左，大值在右
 	- 节点 n 的所有左子树值小于 n，所有右子树值大于 n
 
-![20220115152353](https://raw.githubusercontent.com/wongabner/picgo/master/20220115152353.png)
+![图 6](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-35-22.png)  
+
  
 - 遍历节点
 	- 前序遍历

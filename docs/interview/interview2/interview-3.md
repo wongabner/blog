@@ -535,7 +535,7 @@ obj[type]()
 > 这样一个场景中，**取号机器就是 Nginx(入口网关)**。一个个柜台就是我们的业务服务器(办理业务)；银行中的保险箱就是我们的数据库(存取数据)；🤣
 > 
 
-![20220115152901](https://raw.githubusercontent.com/wongabner/picgo/master/20220115152901.png)
+![图 10](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-37-54.png)  
 
 - **特点**:
 	- 轻量级，配置方便灵活，无侵入性；
@@ -590,7 +590,7 @@ obj[type]()
 			- 代理服务器是 **为用户服务**，对于用户是透明的，用户知道自己访问代理服务器；
 			- 对内容服务器来说是 **隐藏** 的，内容服务器并无法分清访问是来自用户或者代理；
 
-	![20220115152937](https://raw.githubusercontent.com/wongabner/picgo/master/20220115152937.png)
+  ![图 11](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-38-18.png)  
 
 	- **反向代理**:
 		- 用户访问头条的反向代理网关，通过网关的一层处理和调度后，再由网关将访问转发到内部的服务器上，返回内容给用户；
@@ -599,8 +599,8 @@ obj[type]()
 			- 代理服务器是 **为内容服务器服务** 的，对用户是隐藏的，用户不清楚自己访问的具体是哪台内部服务器；
 			- 能有效保证内部服务器的 **稳定与安全**；
 
-	![20220115153002](https://raw.githubusercontent.com/wongabner/picgo/master/20220115153002.png)
-	
+	![图 12](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-15-17-38-45.png)  
+
 	- **反向代理的好处**:
 		- **安全与权限**:
 			- 用户访问必须通过反向代理服务器，也就是便可以在做这层做统一的请求校验，过滤拦截不合法、危险的请求，从而就能更好的保证服务器的安全与稳定；
