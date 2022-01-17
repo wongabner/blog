@@ -17,8 +17,6 @@ group:
 - zlib模块：Node.js内置模块，用于使用gzip算法进行文件压缩；
 - terser模块：用于Javascript代码压缩和美化。
 
-我将这些基础知识点整理成一篇前置学习教程：[《10分钟快速精通rollup.js——前置学习之基础知识篇》](https://www.imooc.com/article/264075)，感兴趣的小伙伴可以看看。
-
 ### 前置学习——rollup.js插件
 
 rollup.js进阶教程中讲解了rollup.js的部分常用插件：
@@ -36,8 +34,6 @@ rollup.js进阶教程中讲解了rollup.js的部分常用插件：
 - rollup-plugin-replace插件：替换代码中的变量为指定值；
 - rollup-plugin-terser插件：代码压缩，取代uglify，支持ES模块。
 - intro和outro配置：在代码块内添加代码注释。
-
-我为还不熟悉这些插件的小伙伴准备了另一篇前置学习教程：[《10分钟快速精通rollup.js——前置学习之rollup.js插件篇》](https://www.imooc.com/article/264076)。
 
 ### Vue.js源码打包
 
@@ -153,16 +149,6 @@ Vue.js源码打包基于rollup.js的API，流程大致可分为五步，如下�
 ### Vue.js打包源码分析
 
 下面我们将深入Vue.js打包源码，解析Vue.js打包的原理和细节。
-
-> 友情提示：建议阅读源码之前先将之前提供的四份教程全部看完：
-> 
-> [《10分钟快速入门rollup.js》](https://www.imooc.com/article/262083)
-> 
-> [《10分钟快速进阶rollup.js》](https://www.imooc.com/article/263597)
-> 
-> [《10分钟快速精通rollup.js——前置学习之基础知识篇》](https://www.imooc.com/article/264075)
-> 
-> [《10分钟快速精通rollup.js——前置学习之rollup.js插件篇》](https://www.imooc.com/article/264076)
 
 #### 创建dist目录
 
@@ -639,7 +625,3 @@ function getSize (code) {
 ```
 
 这三个方法不难理解，但是都非常实用，大家在开发过程中可以多多借鉴。
-
-### 总结
-
-大家可以发现当我们具备了基础知识后，再分析Vue.js的源码打包过程并不复杂，所以建议大家工作中可以借鉴这种学习方式，将基础知识点先抽离出来，单独搞明白后再攻克复杂的源码。

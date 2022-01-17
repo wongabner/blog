@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: 'cn.abner.wong✨',
+  title: '个人资料平台',
   favicon: 'https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/mizutokilogo.png?download=true',
   logo: 'https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/mizutokilogo.png?download=true',
   history: {

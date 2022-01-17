@@ -1,7 +1,7 @@
 ---
 nav:
   title: 面试
-title: 'http'
+title: 'http协议'
 group:
   title: 前端面试基础
 ---
