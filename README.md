@@ -4,7 +4,7 @@
 
 - [react面试常问](./docs/basic/react/面试题.md)
 
-- [react进阶实践指南（掘金小册）](./docs/advanced/reactSC/1.基础篇-认识jsx.md)
+- [react进阶实践指南（掘金小册）](./docs/advanced/analysisOfReact/1.基础篇-认识jsx.md)
 
 - [Axios无感知刷新token](./docs/note/Axios无感知刷新token.md)
 
