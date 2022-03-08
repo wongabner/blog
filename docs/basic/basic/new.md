@@ -10,7 +10,7 @@ new运算符创建一个用户定义的对象类型的实例或具有构造函�
     var obj = {}
 
     // 2.链接该对象（即设置该对象的构造函数）到另一个对象上 （通俗理解就是新对象隐式原型__proto__链接到构造函数显式原型prototype上）
-    obj.__protp__ = fun.prototype
+    obj.__proto__ = fun.prototype
 
     // 3.将步骤1新创建的对象作为this的上下文 （实际是执行了构造函数 并将构造函数作用域指向新对象）
     var res = fun.apply(obj, arg)
