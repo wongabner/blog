@@ -34,7 +34,7 @@ Promise 对象代表一个异步操作，其不受外界影响，有三种状态
  
 ### 3.Promise/A规范图解
 
-![图 1](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-03-08-17-50-18.png)  
+![图 1](https://gitee.com/wongabner/picgo/raw/master/2022-03-08-17-50-18.png)  
 
 ### 4.目前支持Promises/A规范的库
 
@@ -240,7 +240,7 @@ cook()
 
 3. 运行结果如下：
 
-![图 2](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-03-08-17-56-17.png)  
+![图 2](https://gitee.com/wongabner/picgo/raw/master/2022-03-08-17-56-17.png)  
 
 ### 2.reject()方法
 上面样例我们通过 resolve 方法把 Promise 的状态置为完成态（Resolved），这时 then 方法就能捕捉到变化，并执行“成功”情况的回调。
@@ -279,7 +279,7 @@ cook()
 })运行结果如下：
 ```
 
-![图 3](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-03-08-17-56-59.png)  
+![图 3](https://gitee.com/wongabner/picgo/raw/master/2022-03-08-17-56-59.png)  
 
 2. 如果我们只要处理失败的情况可以使用 then(null, ...)，或是使用接下来要讲的 catch 方法。
 
@@ -339,7 +339,7 @@ cook()
 });运行结果如下：
 ```
 
-![图 4](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-03-08-17-58-04.png)  
+![图 4](https://gitee.com/wongabner/picgo/raw/master/2022-03-08-17-58-04.png)  
 
 这种错误的捕获是非常有用的，因为它能够帮助我们在开发中识别代码错误。比如，在一个 then() 方法内部的任意地方，我们做了一个 JSON.parse() 操作，如果 JSON 参数不合法那么它就会抛出一个同步错误。用回调的话该错误就会被吞噬掉，但是用 promises 我们可以轻松的在 catch() 方法里处理掉该错误。
  
@@ -400,7 +400,7 @@ Promise
 
 2. 运行结果如下：
 
-![图 5](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-03-08-17-58-55.png)  
+![图 5](https://gitee.com/wongabner/picgo/raw/master/2022-03-08-17-58-55.png)  
 
 ### 5.race()方法
 
@@ -457,4 +457,4 @@ Promise
 - 如果 5 秒内图片请求成功那么便进入 then 方法，执行正常的流程。
 - 如果 5 秒钟图片还未成功返回，那么则进入 catch，报“图片请求超时”的信息。
 
-![图 6](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-03-08-17-59-52.png)
+![图 6](https://gitee.com/wongabner/picgo/raw/master/2022-03-08-17-59-52.png)

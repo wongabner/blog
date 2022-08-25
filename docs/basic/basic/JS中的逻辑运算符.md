@@ -26,7 +26,7 @@ title: 'js中的逻辑运算符'
 
 举个栗子：
 
-![图 33](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-22-40.png)  
+![图 33](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-22-40.png)  
 
 ### 3、位运算符：|
 
@@ -35,11 +35,11 @@ title: 'js中的逻辑运算符'
 
 继续举栗子
 
-![图 34](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-23-06.png)  
+![图 34](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-23-06.png)  
 
 |运算符还能进行取整运算
 
-![图 35](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-23-18.png)  
+![图 35](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-23-18.png)  
 
 ### 4、位运算符：&
 
@@ -48,5 +48,5 @@ title: 'js中的逻辑运算符'
 
 还是举栗子：
 
-![图 36](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-23-29.png)  
+![图 36](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-23-29.png)  
 

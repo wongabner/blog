@@ -13,7 +13,7 @@ rollup.js是Javascript的ES模块打包器，我们熟知的Vue、React等诸多
 rollup.js可以将我们自己编写的Javascript代码（通过插件可以支持更多语言，如Tyepscript）与第三方模块打包在一起，形成一个文件，该文件可以是一个库（Library）或者一个应用（App），在打包过程中可以应用各类插件实现特定功能。下图揭示了rollup.js的运行机制：
 rollup.js运行机制
 
-![图 15](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-15-46.png)  
+![图 15](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-15-46.png)  
 
 rollup.js默认采用ES模块标准，我们可以通过rollup-plugin-commonjs插件使之支持CommonJS标准。
 

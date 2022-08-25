@@ -2,8 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   title: '个人资料平台',
-  favicon: 'https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/mizutokilogo.png?download=true',
-  logo: 'https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/mizutokilogo.png?download=true',
+  favicon: 'https://gitee.com/wongabner/picgo/raw/master/mizutokilogo.png',
+  logo: 'https://gitee.com/wongabner/picgo/raw/master/mizutokilogo.png',
   history: {
     type: 'hash'
   },

@@ -24,7 +24,7 @@ Model 之间的同步工作完全是自动的，无需人为干涉，因此开�
 
 MVC模式的意思是，软件可以分成三个部分。
 
-![图 16](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-16-16.png)  
+![图 16](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-16-16.png)  
 
 * 视图（View）：用户界面。
 * 控制器（Controller）：业务逻辑
@@ -32,7 +32,7 @@ MVC模式的意思是，软件可以分成三个部分。
 
 各部分之间的通信方式如下:
 
-![图 17](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-16-32.png)  
+![图 17](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-16-32.png)  
 
 1. View 传送指令到 Controller
 2. Controller 完成业务逻辑后，要求 Model 改变状态
@@ -44,17 +44,17 @@ MVC模式的意思是，软件可以分成三个部分。
 
 接受用户指令时，MVC 可以分成两种方式。一种是通过 View 接受指令，传递给 Controller。
 
-![图 18](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-16-48.png)  
+![图 18](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-16-48.png)  
 
 另一种是直接通过controller接受指令。
 
-![图 19](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-17-01.png)  
+![图 19](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-17-01.png)  
 
 ### 三、实例：Backbone
 
 实际项目往往采用更灵活的方式，以 Backbone.js 为例。
 
-![图 20](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-17-19.png)  
+![图 20](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-17-19.png)  
 
 1. 用户可以向 View 发送指令（DOM 事件），再由 View 直接要求 Model 改变状态。
 
@@ -66,7 +66,7 @@ MVC模式的意思是，软件可以分成三个部分。
 
 MVP 模式将 Controller 改名为 Presenter，同时改变了通信方向。
 
-![图 21](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-17-32.png)  
+![图 21](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-17-32.png)  
 
 1. 各部分之间的通信，都是双向的。
 
@@ -78,7 +78,7 @@ MVP 模式将 Controller 改名为 Presenter，同时改变了通信方向。
 
 MVVM 模式将 Presenter 改名为 ViewModel，基本上与 MVP 模式完全一致。
 
-![图 22](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-17-46.png)  
+![图 22](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-17-46.png)  
 
 唯一的区别是，它采用双向绑定（data-binding）：View的变动，自动反映在 ViewModel，反之亦然。Angular 和 Ember 都采用这种模式。
 

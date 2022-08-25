@@ -8,7 +8,7 @@ title: 'vue和react的区别'
 
 ### 数据流的不同
 
-![图 27](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-20-12.png)  
+![图 27](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-20-12.png)  
 
 Vue中默认是支持双向绑定的。在Vue1.0中我们可以实现两种双向绑定：
 
@@ -31,7 +31,7 @@ React 最早也是使用 mixins 的，不过后来他们觉得这种方式对组
 
 ### 组件通信的区别
 
-![图 28](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-23-19-20-28.png)  
+![图 28](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-20-28.png)  
 
 其实这部分两个比较相似。
 

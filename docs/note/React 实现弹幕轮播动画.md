@@ -8,13 +8,13 @@ title: 'React 实现弹幕轮播动画'
 
 最近投入了一个需求，遇到一个需要用动画去实现的场景。
 
-![图片](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/danmu1.gif?download=true)
+![图片](https://gitee.com/wongabner/picgo/raw/master/danmu1.gif?download=true)
 
 我们的产品大大管它叫氛围气泡，在很多应用（淘宝、抖音、bilibili）的直播间场景都会有类似这样营造氛围感的组件，能够让你感知到其他用户在当前直播间的行为。
 
 这个东西看起来转瞬即逝的，但背后其实是基于一套和 push 通道相关的设计：
 
-![图 7](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2022-01-17-16-31-37.png)  
+![图 7](https://gitee.com/wongabner/picgo/raw/master/2022-01-17-16-31-37.png)  
 
 
 前人栽树后人乘凉，所幸大佬们把 `push 消息中心` 和 `后台服务` 都建设得很完善，所以这次开发我只需要做这么一件事情：
@@ -90,7 +90,7 @@ export default () => {
 
 设置了 autoplay，可以自动播放，效果如下：
 
-![图片](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/danmu2.gif?download=true)
+![图片](https://gitee.com/wongabner/picgo/raw/master/danmu2.gif?download=true)
 
 #### 细节改造 
 
@@ -100,7 +100,7 @@ export default () => {
 - 进入效果：从左到右一边移入，一边渐现
 - 退出效果：原地不动，渐隐
 
-![图片](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/danmu3.gif?download=true)
+![图片](https://gitee.com/wongabner/picgo/raw/master/danmu3.gif?download=true)
 
 接下来让我们逐个击破，改造一下 swiper。
 
@@ -160,7 +160,7 @@ prev 和 next 的具体参数类型可以参考 [swiper creativeEffect](https://
 
 经过我们的改造，最终效果如下：
 
-![图片](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/danmu4.gif?download=true)
+![图片](https://gitee.com/wongabner/picgo/raw/master/danmu4.gif?download=true)
 
 #### 局限性 
 
@@ -285,7 +285,7 @@ exportdefaultfunction App() {
 
 效果如下：
 
-![图片](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/danmu5.gif?download=true)
+![图片](https://gitee.com/wongabner/picgo/raw/master/danmu5.gif?download=true)
 
 Transition 包含了以下参数：
 
@@ -380,7 +380,7 @@ exportdefaultfunction App() {
 
 效果依然是：
 
-![图片](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/danmu6.gif?download=true)
+![图片](https://gitee.com/wongabner/picgo/raw/master/danmu6.gif?download=true)
 
 CSSTransition 会根据 in 参数的变化，为组件添加不同的 class。例如，当 in 变为 true，会先后为组件添加 {classNames}-enter、{classNames}-enter-active、{classNames}-enter-done 的 class，形成入场的动画效果；当 in 变为 false，则会为组件添加 {classNames}-exit、{classNames}-exit-active、{classNames}-exit-done 的 class，形成退场的动画效果。
 
@@ -534,7 +534,7 @@ body {
 
 效果如下：
 
-![图片](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/danmu7.gif?download=true)
+![图片](https://gitee.com/wongabner/picgo/raw/master/danmu7.gif?download=true)
 
 从这里可以看出和 swiper 的区别，swiper 类似于 `in-out` 的效果，而我们希望实现的氛围气泡是 `out-in` 的效果。
 
@@ -743,7 +743,7 @@ exportdefaultfunction App() {
 
 接着来看看效果：
 
-![图片](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/danmu8.gif?download=true)
+![图片](https://gitee.com/wongabner/picgo/raw/master/danmu8.gif?download=true)
 
 很好，已经实现我们想要的效果了！
 

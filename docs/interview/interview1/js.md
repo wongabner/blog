@@ -196,7 +196,7 @@ undefined表示『不存在』，JavaScript是一⻔动态类型语言，成员�
 <details>
 <summary>展开查看</summary><br/>
 
-![图 4](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-25-05-29-28.png)  
+![图 4](https://gitee.com/wongabner/picgo/raw/master/2021-03-25-05-29-28.png)  
 
 JS 的 Number 类型遵循的是 IEEE 754 标准，使用的是 64 位固定⻓度来表示。
 
@@ -221,7 +221,7 @@ IEEE 754 浮点数由三个域组成，分别为 sign bit (符号位)、exponent
 
 因此 0.1 转换为二进制表示的过程如下:
 
-![图 5](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-25-05-31-36.png)  
+![图 5](https://gitee.com/wongabner/picgo/raw/master/2021-03-25-05-31-36.png)  
 
 得到 0.1 的二进制表示为 0.00011...(无限重复 0011)
 
@@ -253,7 +253,7 @@ exponent bias (指数偏移值) 等于 双精度浮点数固定偏移值 (2-1) �
 
 在if语句、逻辑语句、数学运算逻辑、==等情况下都可能出现隐士类型转换。
 
-![图 6](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-25-05-34-07.png)  
+![图 6](https://gitee.com/wongabner/picgo/raw/master/2021-03-25-05-34-07.png)  
 
 #### 类型转换的原理是什么?
 
@@ -314,7 +314,7 @@ exponent bias (指数偏移值) 等于 双精度浮点数固定偏移值 (2-1) �
 
 对象可以通过 `__proto__ `与上游的构造函数的原型对象连接起来，而上游的原型对象也有一个 `__proto__ `，这样就形成了原型链。
 
-![图 7](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-25-05-39-44.png)  
+![图 7](https://gitee.com/wongabner/picgo/raw/master/2021-03-25-05-39-44.png)  
 
 </details>
 

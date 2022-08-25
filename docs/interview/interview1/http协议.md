@@ -105,7 +105,7 @@ PUT和PATCH都是更新资源，而PATCH用来对已知资源进行局部更新�
 
 - 请求体
 
-![图 8](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-25-06-04-25.png)  
+![图 8](https://gitee.com/wongabner/picgo/raw/master/2021-03-25-06-04-25.png)  
 
 - 请求行包括:请求方法字段、URL字段、HTTP协议版本字段。它们用空格分隔。例如，GET /index.html HTTP/1.1。
 
@@ -119,7 +119,7 @@ PUT和PATCH都是更新资源，而PATCH用来对已知资源进行局部更新�
 
 - 请求体: post put等请求携带的数据
 
-![图 9](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-25-06-05-27.png)
+![图 9](https://gitee.com/wongabner/picgo/raw/master/2021-03-25-06-05-27.png)
 
 ### http的响应报文是什么样的?
 
@@ -133,7 +133,7 @@ PUT和PATCH都是更新资源，而PATCH用来对已知资源进行局部更新�
 
 - 响应体
 
-![图 10](https://wongabner.coding.net/p/picgo/d/mdimg/git/raw/master/2021-03-25-06-06-25.png)  
+![图 10](https://gitee.com/wongabner/picgo/raw/master/2021-03-25-06-06-25.png)  
 
 - 响应行: 由协议版本，状态码和状态码的原因短语组成，例如 HTTP/1.1 200 OK 。
 
