@@ -7,6 +7,9 @@ export default defineConfig({
   history: {
     type: 'hash'
   },
+  mfsu : {},
+  webpack5: {},
+  dynamicImport: {},
   hash: true,
   base: '/blog/',
   publicPath: '/blog/',
