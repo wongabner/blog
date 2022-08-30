@@ -32,7 +32,7 @@ new运算符创建一个用户定义的对象类型的实例或具有构造函�
 <details>
   <summary>展开查看</summary>
   
-  ![图 43](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-20-06-47.png)
+  ![图 43](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-23-20-06-47.png)
 
   ```js
     function _new(fun, ...arg) {

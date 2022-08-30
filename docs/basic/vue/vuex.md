@@ -11,7 +11,7 @@ title: 'vuex'
 
 场景有：单页应用中，组件之间的状态、音乐播放、登录状态、加入购物车
 
-![图 29](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-20-58.png)  
+![图 29](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-23-19-20-58.png)  
 
 ### state
 
@@ -31,11 +31,11 @@ mutations 定义的方法动态修改 Vuex 的 store 中的状态或数据。
 actions 可以理解为通过将 mutations 里面处里数据的方法变成可异步的处理数据的
 方法，简单的说就是异步操作数据。view 层通过 store.dispath 来分发 action。
 
-![图 30](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-21-14.png)  
+![图 30](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-23-19-21-14.png)  
 
 ### modules
 
 项目特别复杂的时候，可以让每一个模块拥有自己的 state、mutation、action、
 getters,使得结构非常清晰，方便管理。
 
-![图 31](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-21-28.png)  
+![图 31](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-23-19-21-28.png)  

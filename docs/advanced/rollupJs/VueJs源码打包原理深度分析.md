@@ -86,7 +86,7 @@ packages/vue-server-renderer/client-plugin.js 3.03kb
 
 打包成功后会在dist目录下创建下列打包文件：
 
-![图 13](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-14-21.png)  
+![图 13](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-23-19-14-21.png)  
 
 以上就是使用build指令对Vue.js源码进行打包的过程，除此之外，Vue.js还提供了另外两种打包方式：“build:ssr"和"build:weex”，先尝试"build:ssr"指令：
 
@@ -138,7 +138,7 @@ node scripts/build.js "weex" # build:weex
 
 Vue.js源码打包基于rollup.js的API，流程大致可分为五步，如下图所示：
 
-![图 14](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-19-14-59.png)  
+![图 14](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-23-19-14-59.png)  
 
 - 第一步：创建dist目录。检查是否存在dist目录，如果不存在，则进行创建；
 - 第二步：生成rollup配置文件。通过scripts/config.js生成rollup的配置文件；

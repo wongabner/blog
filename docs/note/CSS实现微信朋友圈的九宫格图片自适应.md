@@ -35,7 +35,7 @@ title: 'CSS实现微信朋友圈的九宫格图片自适应'
 
 样式也不用设置，最终效果是这样的
 
-![图 2](https://gitee.com/wongabner/picgo/raw/master/2022-01-17-16-15-39.png)  
+![图 2](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2022-01-17-16-15-39.png)  
 
 
 ## 多张图片
@@ -95,10 +95,10 @@ title: 'CSS实现微信朋友圈的九宫格图片自适应'
 
 最终效果是这样的
 
-![图 3](https://gitee.com/wongabner/picgo/raw/master/2022-01-17-16-16-28.png)  
+![图 3](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2022-01-17-16-16-28.png)  
 
 
-![图 4](https://gitee.com/wongabner/picgo/raw/master/2022-01-17-16-16-59.png)  
+![图 4](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2022-01-17-16-16-59.png)  
 
 
 ### 3张图片
@@ -125,7 +125,7 @@ title: 'CSS实现微信朋友圈的九宫格图片自适应'
 
 最终效果是这样的
 
-![图 5](https://gitee.com/wongabner/picgo/raw/master/2022-01-17-16-17-30.png)  
+![图 5](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2022-01-17-16-17-30.png)  
 
 
 ### 5~9张图片
@@ -152,7 +152,7 @@ title: 'CSS实现微信朋友圈的九宫格图片自适应'
 
 最终效果是这样的
 
-![图 6](https://gitee.com/wongabner/picgo/raw/master/2022-01-17-16-18-17.png)  
+![图 6](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2022-01-17-16-18-17.png)  
 
 
 ## 完整代码

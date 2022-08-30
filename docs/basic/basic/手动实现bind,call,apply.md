@@ -4,7 +4,7 @@ title: '手动实现bind,call,apply'
 
 > apply.call.bind 都是为了改变函数运行时上下文(this指向)而存在的。
 
-![图 48](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-20-55-36.png)  
+![图 48](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-23-20-55-36.png)  
 
 ### 三兄弟的区别
 
@@ -12,7 +12,7 @@ title: '手动实现bind,call,apply'
 - apply的第二个参数是一个参数数组,call和bind的第二个及之后的参数作为函数实参按顺序传入。
 - bind不会立即调用,其他两个会立即调用。
 
-![图 49](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-20-56-27.png)  
+![图 49](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-23-20-56-27.png)  
 
 接下来,我们来对三兄弟进行模拟实现
 
@@ -32,13 +32,13 @@ title: '手动实现bind,call,apply'
 
 > 如果调用者函数，被某一个对象所拥有，那么该函数在调用时，内部的this指向该对象。
 
-![图 50](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-21-01-35.png)  
+![图 50](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-23-21-01-35.png)  
 
 ### apply的简易模拟实现(es6)
 
 apply实现的思路与call基本相同,我们只需要对参数进行不同处理即可
 
-![图 51](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-21-01-55.png)  
+![图 51](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-23-21-01-55.png)  
 
 ### bind的简易模拟实现(es6)
 
@@ -58,4 +58,4 @@ apply实现的思路与call基本相同,我们只需要对参数进行不同处�
 
 > 如果调用者函数，被某一个对象所拥有，那么该函数在调用时，内部的this指向该对象。
 
-![图 52](https://gitee.com/wongabner/picgo/raw/master/2021-03-23-21-02-12.png)  
+![图 52](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-23-21-02-12.png)  

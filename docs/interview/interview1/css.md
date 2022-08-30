@@ -290,7 +290,7 @@ CSS Sprite维护成本较高，如果⻚面背景有少许改动，一般就要�
 
 当对一个文档进行布局(lay out)的时候，浏览器的渲染引擎会根据标准之一的CSS基础框盒模型(CSS basic box model)，将所有元素表示为一个个矩形的盒子(box)。CSS 决定这些盒子的大小、位置以及属性(例如颜色、背 景、边框尺寸...)。
 
-![图 1](https://gitee.com/wongabner/picgo/raw/master/2021-03-25-05-03-47.png)
+![图 1](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-25-05-03-47.png)
 
 盒模型由content(内容)、padding(内边距)、border(边框)、margin(外边距)组成。
 
@@ -300,7 +300,7 @@ CSS Sprite维护成本较高，如果⻚面背景有少许改动，一般就要�
 
 > 元素的宽度 = margin-left + border-left + padding-left + width + padding-right + border-right + margin-right
 
-![图 2](https://gitee.com/wongabner/picgo/raw/master/2021-03-25-05-05-12.png)  
+![图 2](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-25-05-05-12.png)  
 
 而IE怪异盒模型(IE8以下)width的宽度并不是content的宽度，而是border-left + padding-left + content的宽度值 + padding-right + border-right之和，height同理。
 
@@ -308,7 +308,7 @@ CSS Sprite维护成本较高，如果⻚面背景有少许改动，一般就要�
 
 > 元素占据的宽度 = margin-left + width + margin-right
 
-![图 3](https://gitee.com/wongabner/picgo/raw/master/2021-03-25-05-05-46.png)  
+![图 3](https://wonganber-picgo.oss-cn-hangzhou.aliyuncs.com/picgo/2021-03-25-05-05-46.png)  
 
 虽然现代浏览器默认使用W3C的标准盒模型，但是在不少情况下怪异盒模型更好用，于是W3C在css3中加入 box- sizing 。
 
