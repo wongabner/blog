@@ -1,19 +1,30 @@
+# 当前 workflow 的名称
 name: github pages
 
+# 指定 workflow 触发的 event
 on:
   push:
     branches:
       - master # default branch
 
+# 一个 workflow 由一个或多个 job 组成
 jobs:
   deploy:
+    # job 运行的环境配置
     runs-on: ubuntu-18.04
+    # 一个 job 由多个 step 组成
     steps:
+      # checkout action 主要用于向 github 仓库拉取源代码
+      # https://github.com/actions/checkout
       - uses: actions/checkout@v2
       - run: npm install
       - run: npm run docs:build
       - name: Deploy
+        # 将构建产物 commit 到一个分支上，用于发布静态站点资源
+        # https://github.com/peaceiris/actions-gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
+          # Github 会在 workflow 中自动生成 GIHUBT_TOKEN，用于认证 workflow 的运行
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 静态资源目录设置
           publish_dir: ./docs-dist
