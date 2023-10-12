@@ -1,7 +1,7 @@
 ---
 nav:
   title: note
-  order: 50
+  order: 60
 title: '基于react-masonry-component组件实现瀑布流'
 ---
 
